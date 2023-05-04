@@ -93,8 +93,9 @@ if API_O:
             memory=st.session_state.entity_memory
         )  
 else:
-    st.sidebar.warning('API key required to try this app.The API key is not stored in any form.')
+    # st.sidebar.warning('API key required to try this app.The API key is not stored in any form.')
     # st.stop()
+    pass
 
 
 # Add a button to start a new chat
