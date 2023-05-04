@@ -67,8 +67,8 @@ with st.sidebar.expander("🛠️ ", expanded=False):
     K = st.number_input(' (#)Summary of prompts to consider',min_value=3,max_value=1000)
 
 # Set up the Streamlit app layout
-st.title("🤖 Chat Bot with 🧠")
-st.subheader(" Powered by 🦜 LangChain + OpenAI + Streamlit")
+st.title("👩‍⚕️🔎 Symptom Checker")
+st.subheader("by PHOENIX group")
 
 # Ask the user to enter their OpenAI API key
 API_O = st.sidebar.text_input("API-KEY", type="password")
